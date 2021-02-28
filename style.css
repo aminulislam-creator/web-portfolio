@@ -1,73 +1,78 @@
-            body {
-                margin: 0;
-                font-family: 'Poppins', sans-serif;
-            }
-            
-            h1 {
-                font-size: 20px;
-            }
-            
-            .name-highlit {
-                color: orange;
-            }
-            
-            .half-width {
-                width: 40%;
-                float: left;
-                margin-left: 3%;
-                padding: 2%
-            }
-            
-            .half-width img {
-                width: 100%
-            }
-            
-            .link-style {
-                text-decoration: none;
-                background-image: linear-gradient(45deg, rgb(230, 17, 116), red);
-                padding: 5px 10px;
-                border-radius: 3px;
-                color: white
-            }
-            
-            .banner-area {
-                background-image: url("images/top-banner.png");
-            }
-            
-            section {
-                height: 350px;
-            }
-            
-            .dream-area {
-                background-image: url("images/dream-bg.png");
-                background-repeat: no-repeat;
-                background-position: right;
-            }
-            
-            .experience-section {
-                box-shadow: 5px 5px 30px rgb(82, 72, 78);
-                border-radius: 5px;
-            }
-            
-            .experience-area {
-                background-image: url("images/exp-bg.png");
-                background-repeat: no-repeat;
-                background-position: left;
-            }
-            
-            #full-stack {
-                border-left: 5px solid;
-                border-image: linear-gradient(rgb(255, 0, 149), rgb(58, 240, 13));
-                border-image-slice: 1;
-            }
-            
-            #baby-web {
-                border-left: 7px solid;
-                border-image: linear-gradient(blue, cyan);
-                border-image-slice: 1;
-            }
-            
-            footer p {
-                text-align: center;
-                font-size: 12px
-            }
+body {
+    margin: 0;
+    padding: 0
+}
+
+.header-main {
+    font-size: 35px;
+    color: hotpink
+}
+
+h2 {
+    font-size: 25px
+}
+
+.half-width {
+    width: 40%;
+    margin-left: 4%;
+    padding: 0%;
+    float: left
+}
+
+.half-width img {
+    width: 100%
+}
+
+.peter-area {
+    background-image: url("images/header-bg.png");
+}
+
+section {
+    height: 450px
+}
+
+.peter-button {
+    text-decoration: none;
+    padding: 6px 12px;
+    background-image: linear-gradient(45deg, rgb(211, 17, 153), rgb(223, 12, 12));
+    color: white;
+    border-radius: 3px;
+}
+
+.biography-area {
+    background-image: url("images/biography-bg.png");
+}
+
+.work-area {
+    background-image: url("images/latest-work-bg.png")
+}
+
+.letest-area h1 {
+    text-align: center;
+    fon-size: 30px;
+    margin-bottom: 12%
+}
+
+.letest-img img {
+    width: 30%;
+    padding: 1%
+}
+
+.client-say {
+    text-align: center
+}
+
+.p {
+    width: 60%;
+    text-align: center;
+}
+
+.massage-area {
+    background-image: linear-gradient(10deg, rgb(5, 117, 84), blue);
+    color: white;
+    padding: 4px;
+    width: 440px;
+    border-radius: 5px;
+    margin-left: 180px;
+    margin-bottom: 50px
+}
